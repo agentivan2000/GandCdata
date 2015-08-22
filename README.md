@@ -1,4 +1,5 @@
----Getting and Cleaning Data Project
+----------Getting and Cleaning Data Project ------
+--------------------------------------------------
 
 The script starts by sourcing a file that contains the custom functions that were writen 
 for this program
