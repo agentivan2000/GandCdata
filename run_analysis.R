@@ -59,7 +59,6 @@ names(final_data) <- req_fieldnames
 
 final_data2 <- aggregate(final_data[, 4:82], list(subjectkey=final_data$subjectkey,activityname=final_data$activityname), mean)
 
-write.table(final_data2, file = "./tidydataset2.txt", row.name=FALSE)
+write.table(final_data2, file = "./tidydataset.txt", sep = ",", row.name=FALSE)
 
 ######## The second set of grouped data can be found in the object final_data2
-
