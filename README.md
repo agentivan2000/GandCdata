@@ -1,4 +1,4 @@
-Getting and Cleaning Data Project
+---Getting and Cleaning Data Project
 
 The script starts by sourcing a file that contains the custom functions that were writen 
 for this program
@@ -14,7 +14,8 @@ everything in just one folder.
 (X_test.txt/X_train.txt), the y file name (y_test.txt/y_train.txt) and the subject file 
 name (subject_test.txt/subject_train.txt). It marges the three tables and returns a 
 data frame. The function adds the activity label key and the subjectkey on each  
-data set and renames the column accordingly to avoid confusion
+data set and renames the column accordingly to avoid confusion.
+
 --------------------------------------------------------------------------------------
 
 The script calls the readcomb_data() function on both the test and training data sets and 
